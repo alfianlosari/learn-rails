@@ -17,5 +17,5 @@ class Owner
       countdown = (birthday - today).to_i
     end
   end
-
+  
 end

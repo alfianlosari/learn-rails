@@ -16,6 +16,7 @@ gem 'spring', group: :development
 
 
 #learn-rails
+gem 'bootstrap-sass'
 gem 'foundation-rails'
 gem 'gibbon'
 gem 'google_drive'
