@@ -6,5 +6,4 @@ class UserMailer < ApplicationMailer
     mail to: Rails.application.secrets.owner_email, from: @contact.email, subject: "Website Contact"
   end
 
-
 end

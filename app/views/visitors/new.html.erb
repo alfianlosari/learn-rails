@@ -2,3 +2,40 @@
 <p>Welcome to the home of <%= @owner.name %></p>
 <p>I was born in <%= @owner.birthdate %></p>
 <p>Only <%= @owner.countdown %> days until my birthday</p>
+
+<section>
+  <img src="http://lorempixel.com/1170/600/cats/1">
+</section>
+
+<section>
+<h2>Stay In touch!</h2>
+
+<div class="form">
+  <%= simple_form_for @visitor do |f| %>
+    <%= f.error_notification %>
+
+
+    <%= f.input :email, label: false, placeholder: "Your Email Address..."  %>
+    <br/>
+
+    <%= f.submit "Sign up for the newsletter"  %>
+
+
+
+
+
+  <% end %>
+
+</div>
+
+
+
+
+  
+
+
+</div>
+
+
+
+</section>
